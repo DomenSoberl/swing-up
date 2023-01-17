@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swing-up", "swing-up\swing-up.vcxproj", "{94C7E94D-8A9C-4CA3-8954-D27C51F89464}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5} = {51C53CF7-B76F-47A5-8D40-A98CBFC493D5}
+		{F77D619A-95B7-4F47-B986-3F255BD52217} = {F77D619A-95B7-4F47-B986-3F255BD52217}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mlpc", "deps\deep-c\vs\mlpc\mlpc.vcxproj", "{36111119-7FF7-4B84-AB16-8907F12967BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ddpgc", "deps\deep-c\vs\ddpgc\ddpgc.vcxproj", "{F77D619A-95B7-4F47-B986-3F255BD52217}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36111119-7FF7-4B84-AB16-8907F12967BE} = {36111119-7FF7-4B84-AB16-8907F12967BE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cartpole", "deps\cartpole-simulator\cartpole\cartpole.vcxproj", "{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Debug|x64.ActiveCfg = Debug|x64
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Debug|x64.Build.0 = Debug|x64
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Debug|x86.ActiveCfg = Debug|Win32
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Debug|x86.Build.0 = Debug|Win32
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Release|x64.ActiveCfg = Release|x64
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Release|x64.Build.0 = Release|x64
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Release|x86.ActiveCfg = Release|Win32
+		{94C7E94D-8A9C-4CA3-8954-D27C51F89464}.Release|x86.Build.0 = Release|Win32
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Debug|x64.ActiveCfg = Debug|x64
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Debug|x64.Build.0 = Debug|x64
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Debug|x86.Build.0 = Debug|Win32
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Release|x64.ActiveCfg = Release|x64
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Release|x64.Build.0 = Release|x64
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Release|x86.ActiveCfg = Release|Win32
+		{36111119-7FF7-4B84-AB16-8907F12967BE}.Release|x86.Build.0 = Release|Win32
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Debug|x64.ActiveCfg = Debug|x64
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Debug|x64.Build.0 = Debug|x64
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Debug|x86.ActiveCfg = Debug|Win32
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Debug|x86.Build.0 = Debug|Win32
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Release|x64.ActiveCfg = Release|x64
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Release|x64.Build.0 = Release|x64
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Release|x86.ActiveCfg = Release|Win32
+		{F77D619A-95B7-4F47-B986-3F255BD52217}.Release|x86.Build.0 = Release|Win32
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Debug|x64.ActiveCfg = Debug|x64
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Debug|x64.Build.0 = Debug|x64
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Debug|x86.Build.0 = Debug|Win32
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Release|x64.ActiveCfg = Release|x64
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Release|x64.Build.0 = Release|x64
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Release|x86.ActiveCfg = Release|Win32
+		{51C53CF7-B76F-47A5-8D40-A98CBFC493D5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A7B5105-B934-4AE3-A022-1A0913917E6E}
+	EndGlobalSection
+EndGlobal

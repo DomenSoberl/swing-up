@@ -1,0 +1,6 @@
+[submodule "deps/deep-c"]
+	path = deps/deep-c
+	url = https://github.com/DomenSoberl/deep-c.git
+[submodule "deps/cartpole-simulator"]
+	path = deps/cartpole-simulator
+	url = https://github.com/DomenSoberl/cartpole-simulator.git
