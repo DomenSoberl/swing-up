@@ -119,6 +119,7 @@ DLLEXPORT void simulatorShutdown()
         else
             Log("Failed to save the model.\n");
     }
+    ddpg_destroy(ddpg);
 }
 
 /* Called when the simulation is being reset. */
